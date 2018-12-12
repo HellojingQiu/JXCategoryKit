@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JXCategoryKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JXCategoryKit.'
+  s.summary          = 'JXCategoryKit is a category userd to the Raven use'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 组件化测试, 合并到文档中
                        DESC
 
-  s.homepage         = 'https://github.com/JokerV/JXCategoryKit'
+  s.homepage         = 'https://github.com/HellowjingQiu/JXCategoryKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JokerV' => '43114620@163.com' }
-  s.source           = { :git => 'https://github.com/JokerV/JXCategoryKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HellowjingQiu/JXCategoryKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit'
+  # s.dependency 'MBProgressHUD'
+  # s.dependency 'AFNetworking'
 end
