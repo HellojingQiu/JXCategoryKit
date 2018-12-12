@@ -1,0 +1,22 @@
+{
+  "name": "JXCategoryKit",
+  "version": "0.1.0",
+  "summary": "JXCategoryKit is a category userd to the Raven use",
+  "description": "TODO: 组件化测试, 合并到文档中",
+  "homepage": "https://github.com/JokerV/JXCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JokerV": "43114620@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JokerV/JXCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JXCategoryKit/Classes/**/*"
+}
